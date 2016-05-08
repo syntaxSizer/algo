@@ -12,7 +12,7 @@ public class MyInsertionSort {
 
     public static void main(String[] args) {
         // TODO code application logic here
-        int arr1 []= {3,6,3,8,7,0};
+        int arr1 []= {3,6,3,8,7,0,12,32,-1,100};
         int[] arr2=insertsort(arr1);
 // loop just to print the sorted array
         for (int i:arr2){
