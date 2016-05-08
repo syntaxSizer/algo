@@ -22,9 +22,8 @@ public class MyInsertionSort {
 
    }
  public static int[] insertsort(int [] input){
-// here where the magic happens
 // the first for loop will loop through all the array while the second loop will loop up to i+1
-// meaning
+// meaning this is how we can compare 2 elements next to each other 'temp' will hold the element being replaced
      int temp;
      for (int i =1; i<input.length; i++){
          for (int j=i; j>0; j--)
